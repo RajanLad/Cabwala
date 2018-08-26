@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajan.cabwala.Welcome_fragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cab"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#86000000"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_username"
+            android:hint="User Name"
+            android:textColorHint="@color/white"
+            android:background="@drawable/textbox"
+            android:layout_margin="10sp"
+            android:padding="10sp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_emailid"
+            android:hint="Email ID"
+            android:layout_below="@id/edit_username"
+            android:textColorHint="@color/white"
+            android:background="@drawable/textbox"
+            android:layout_margin="10sp"
+            android:padding="10sp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_password"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="@color/white"
+            android:background="@drawable/textbox"
+            android:layout_margin="10sp"
+            android:padding="10sp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_below="@id/edit_emailid"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_repassword"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/white"
+            android:background="@drawable/textbox"
+            android:layout_margin="10sp"
+            android:padding="10sp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_below="@id/edit_password"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_repassword"
+            android:id="@+id/register"
+            android:background="@drawable/button"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            android:layout_margin="10sp"
+            android:text="Register" />
+
+
+
+
+    </RelativeLayout>
+</FrameLayout>

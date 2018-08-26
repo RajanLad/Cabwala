@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/carWalaColorPrimary</item>
+        <item name="colorPrimaryDark">@color/carWalaColorPrimaryDark</item>
+        <item name="colorAccent">@color/carWalaColorAccent</item>
+    </style>
+
+    <style name="carWalaAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/carWalaColorPrimary</item>
+        <item name="colorPrimaryDark">@color/carWalaColorPrimary</item>
+        <item name="colorAccent">@color/carWalaColorAccent</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="carWalaAppTheme_splash" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+</resources>
